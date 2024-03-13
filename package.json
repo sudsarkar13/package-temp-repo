@@ -7,7 +7,7 @@
 		"dev": "ncc build ./index.ts -w -o dist/",
 		"prerelease": "node ../../scripts/rm.mjs dist",
 		"release": "ncc build ./index.ts -o ./dist/ --minify --no-cache --no-source-map-register",
-		"prepublishOnly": "cd ../../ && turbo run build",
+		"prepublishOnly": "turbo run build",
 		"build": "pnpm release",
 		"lint-fix": "pnpm prettier -w --plugin prettier-plugin-tailwindcss 'templates/*-tw/{ts,js}/{app,pages}/**/*.{js,ts,tsx}'"
 	},
@@ -60,6 +60,7 @@
 		"cross-spawn": "^7.0.3",
 		"fast-glob": "^3.3.2",
 		"node-fetch": "^3.3.2",
+		"node-plop": "^0.32.0",
 		"npm-run-path": "^5.3.0",
 		"path": "^0.12.7",
 		"picocolors": "^1.0.0",
