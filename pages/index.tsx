@@ -1,6 +1,7 @@
 import Head from "next/head";
 import React, { useState } from "react";
 import { Nav, MobileNav } from "@/components/navigation";
+import Hero from "@/components/hero/Hero";
 import Footer from "@/components/footer/Footer";
 
 const HomePage = () => {
@@ -20,6 +21,7 @@ const HomePage = () => {
 			<div>
 				<MobileNav nav={nav} closeNav={closeNav} />
 				<Nav openNav={openNav} />
+				<Hero />
 				<Footer />
 			</div>
 		</div>

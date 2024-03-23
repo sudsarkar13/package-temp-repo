@@ -49,7 +49,7 @@
 
   /* Footer Area Do not Interfere */
   .footer {
-    @apply px-[2rem] py-[2rem] bg-[#0b1016] text-slate-400;
+    @apply px-[2rem] py-[2rem] mb-0 bg-[#0b1016] text-slate-400;
   }
 
   .footer-main {
