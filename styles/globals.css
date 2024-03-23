@@ -106,16 +106,14 @@
   }
 
   /* All the test components will start with "t" prefix for eg: tslider (which means test slider) */
-  .nullbg {
-    @apply bg-[#0F1722] w-[100%] h-[89.5vh] mt-[10.5vh] items-center justify-center;
+  .gallery {
+    @apply mt-[1rem] w-[90%] md:w-[60%] mx-auto;
   }
-  /* Test Slider */
-  .tslider {
-    @apply w-[80%] pt-[10.5rem] mx-auto;
+  .gcarousel {
+    @apply h-[14rem] sm:h-64 xl:h-80 2xl:h-96;
   }
-  .tslider-container {
-    @apply h-56 sm:h-64 xl:h-80 2xl:h-96;
+  .carousel img {
+    @apply w-full h-full; 
   }
-  
   /* This area only belongs for testing purpose only */
 }
