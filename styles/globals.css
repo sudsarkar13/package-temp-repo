@@ -105,6 +105,18 @@
     @apply flex items-center justify-center px-0 text-[12px] md:text-[14px] sm:text-[13px];
   }
 
+  .footer-love {
+    @apply items-center justify-center px-0 pb-[1rem] text-[12px] md:text-[14px] sm:text-[13px];
+  }
+
+  .footer-love p {
+    @apply flex items-center justify-center;
+  }
+
+  .white-svg {
+    filter: brightness(0) invert(1);
+  }
+
   /* All the test components will start with "t" prefix for eg: tslider (which means test slider) */
   .gallery {
     @apply mt-[1rem] w-[90%] md:w-[60%] mx-auto;

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Link from "next/link";
 import Image from "next/legacy/image";
@@ -79,6 +80,14 @@ const Footer = () => {
 						<GoogleMap />
 					</div>
 				</div>
+			</div>
+			<div className='footer-love'>
+				<p>
+					Made with ❤️ using &nbsp;
+					<Image src='/next.svg' width={60} height={20} alt='Next.js logo' className="white-svg" />
+					&nbsp; and hosted on &nbsp;
+					<Image src='/vercel.svg' width={60} height={20} alt='Vercel logo' className="white-svg" />
+				</p>
 			</div>
 			<div className='footer-copyright'>
 				<p>© {curryear} Maa Tarini Electrical, All rights reserved.</p>
