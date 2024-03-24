@@ -113,7 +113,7 @@
     @apply h-[14rem] sm:h-64 xl:h-80 2xl:h-96;
   }
   .carousel img {
-    @apply w-full h-full; 
+    @apply w-full h-full object-contain; 
   }
   /* This area only belongs for testing purpose only */
 }
